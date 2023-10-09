@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to our mobile dokan</h2>
+    <form action="">
+        <label for="name">Your name
+            <input type="text" name="" placeholder="Your name">
+        </label>
+        <label for="email">Your Email
+            <input type="email" name="" placeholder="Your Email">
+        </label>
+
+        <fieldset>
+            <legend>Pick one mobile</legend>
+            <label for="samsung">
+                <input type="radio" name="mobile" id="samsung">
+                Samsung A12
+            </label>
+            <label for="Apple">
+                <input type="radio" name="mobile" id="Apple">
+                Apple 15 Pro
+            </label>
+            <label for="Redmi">
+                <input type="radio" name="mobile" id="Redmi">
+                Apple 15 Pro
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select one or more mobile</legend>
+            <label for="samsung">
+                <input type="checkbox" name="mobile" id="Samsung A12">
+                Samsung A12
+            </label>
+            <label for="Apple">
+                <input type="checkbox" name="mobile" id="Apple 15Pro">
+                Apple 15 Pro
+            </label>
+            <label for="Redmi">
+                <input type="checkbox" name="mobile" id="Redmi">
+                Redmi
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="reset" value="Reset now">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Submit now">
+        </fieldset>
+      
+    </form>
+</body>
+</html>
